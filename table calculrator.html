@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            font-size: 25px;
+        }
+        #sum{
+            background-color: rgba(10, 182, 167, 0.514);
+            color: white;
+            font-size: 50px;
+            text-align: right;
+            padding-right:15px;
+            border:solid white 0.001px;
+            opacity: 100%;
+            width: 414px;
+            height: 102px;
+        }
+        td{
+            width: 100px;
+            height: 100px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        #sum td{
+            text-align: right;
+            padding-right: 10px;
+        }
+    </style>
+</head> 
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="sum" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="ac">AC</td>
+            <td>←</td>
+            <td>/</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>x</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>+</td>
+        </tr>
+        <tr>
+            <td colspan="2">0</td>
+            <td>.</td>
+            <td id="result">=</td>
+        </tr>
+    </table>
+    <script src="javascript.js"></script>
+</body>
+</html>
